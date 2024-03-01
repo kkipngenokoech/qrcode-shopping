@@ -14,7 +14,7 @@ def generate_qr_code(data, filename):
     img = qr.make_image(fill_color="black", back_color="white")
     img.save(filename)
 
-# Example usage
+# qr code usage
 if __name__ == "__main__":
     data = "https://twitter.com/Kkipngeno_koech"  # Data you want to encode in the QR code
     filename = "example_qr_code.png"   # Output filename for the QR code image
